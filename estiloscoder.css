@@ -1,0 +1,144 @@
+.LogoLuzyFuerza{
+    display: flex;
+    justify-content: center;
+    top: 0%;
+    margin: auto;
+    width: 50vw;
+    height: 20h;
+    position:relative;
+}  
+img{
+    height: auto;
+    width: auto;
+    max-height: 50%;
+    max-width: 130%;
+    
+}
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+}
+.Contenedeor_General {
+   display: grid;
+   
+}
+
+.Contenedor_Menú {
+    display: flex;
+    left:0px;
+    top:0px;
+
+
+}
+.menu_lateral {
+    color:whitesmoke; 
+    font-size: 2.5rem;
+    line-height: 100%;
+    font-family:monospace;
+    left:0px;
+}
+ul  {
+    display: grid;
+    text-align: left;
+    
+}
+
+
+ol {
+    color:whitesmoke; 
+    font-size: 1rem;
+    line-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text align: left;
+}
+a {
+    color:whitesmoke; 
+    font-size: 2.5rem;
+    line-height: 100%;
+    font-family: monospace;
+    text-align:left;
+}
+.Contenedor-imagen{
+    display:grid;
+    left: 0%;
+    top: 0%;
+    margin:auto auto auto auto;
+    padding: 10px 30px 10px 30px;
+    color:whitesmoke; 
+    font-size:1rem;
+    line-height: 100%;
+    text-align:center;
+    font-family:monospace;
+    
+
+}
+
+h2{
+    color: whitesmoke;
+    text-align: center;
+    font size: 4.5rem ;
+    font-family:monospace;
+    line height: 100%;
+}
+p{
+    text-align: center;
+    margin:auto auto 10px auto;
+}
+label{
+    color:whitesmoke; 
+    font-size: 1rem;
+    line-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:right;  
+}
+span{
+    color:whitesmoke; 
+    font-size: 1rem;
+    line-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:right;  
+    position:relative;
+    bottom: 5%;
+    right:0%
+
+}
+.Newsletter{
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 0%;
+    background: black;
+    display: inline;
+ 
+}
+.Aviso_de_Privacidad{
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 0%;
+    background:black;
+    display: inline;
+ 
+}
+.Prensa{
+    display: flex;
+    justify-content: center;
+    color: white;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 0%;
+    background: black;
+    display: inline;
+}
+.contenedorgradial{
+    height: 3rem;
+    width: 10rem;
+    background-image: linear-gradient(to left,blue,red);
+}
