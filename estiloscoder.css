@@ -19,41 +19,47 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 nav{
-    display: flex;
+    
 }
-.Contenedeor_General {
+.Contenedor_General {
    display: grid;
-   
+   grid-template-columns:400px 1150px;
+   grid-template-rows: 30% 80%;
 }
 
 .Contenedor_Menú {
-    display: flex;
+    display: grid;
     left:0px;
     top:0px;
+}
 
-
+.Contenedor-imagen {
+        display: inline-block;
+        left: 0%;
+        top: 0%;
+        margin:auto auto auto auto;
+        padding: 10px 30px 10px 30px;
+        color:whitesmoke; 
+        font-size:1rem;
+        line-height: 100%;
+        text-align:center;
+        font-family:monospace;
+        
 }
 .menu_lateral {
     color:whitesmoke; 
     font-size: 2.5rem;
     line-height: 100%;
     font-family:monospace;
-    left:0px;
+    margin: 0%;
+    left:0%;
 }
 ul  {
-    display: grid;
+    display:inline-block;
     text-align: left;
-    
+   
 }
 
-
-ol {
-    color:whitesmoke; 
-    font-size: 1rem;
-    line-height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    text align: left;
-}
 a {
     color:whitesmoke; 
     font-size: 2.5rem;
@@ -61,27 +67,13 @@ a {
     font-family: monospace;
     text-align:left;
 }
-.Contenedor-imagen{
-    display:grid;
-    left: 0%;
-    top: 0%;
-    margin:auto auto auto auto;
-    padding: 10px 30px 10px 30px;
-    color:whitesmoke; 
-    font-size:1rem;
-    line-height: 100%;
-    text-align:center;
-    font-family:monospace;
-    
-
-}
 
 h2{
     color: whitesmoke;
     text-align: center;
     font size: 4.5rem ;
     font-family:monospace;
-    line height: 100%;
+    line height: 170%;
 }
 p{
     text-align: center;
@@ -89,17 +81,17 @@ p{
 }
 label{
     color:whitesmoke; 
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-height: 100%;
     font-family: Arial, Helvetica, sans-serif;
     text-align:right;  
 }
 span{
     color:whitesmoke; 
-    font-size: 1rem;
+    font-size: 1.3rem;
     line-height: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align:right;  
+    font-family: monospace;
+    text-align:left;  
     position:relative;
     bottom: 5%;
     right:0%
@@ -109,8 +101,6 @@ span{
     display: flex;
     justify-content: center;
     color: white;
-    height: 200px;
-    width: 200px;
     margin-bottom: 0%;
     background: black;
     display: inline;
@@ -120,8 +110,6 @@ span{
     display: flex;
     justify-content: center;
     color: white;
-    height: 200px;
-    width: 200px;
     margin-bottom: 0%;
     background:black;
     display: inline;
@@ -131,8 +119,6 @@ span{
     display: flex;
     justify-content: center;
     color: white;
-    height: 200px;
-    width: 200px;
     margin-bottom: 0%;
     background: black;
     display: inline;
@@ -141,4 +127,67 @@ span{
     height: 3rem;
     width: 10rem;
     background-image: linear-gradient(to left,blue,red);
+}
+
+.Titulo-contacto{
+    color: whitesmoke;
+    text-align: center;
+    font-family: monospace;
+    font-size: 3rem;
+}
+.texto-contacto{
+    color: whitesmoke;
+    text-align:center;
+    font-family: monospace;
+    font-size: 1rem;
+
+}
+fieldset{
+    display: grid;
+
+}
+
+.Nombre{
+    display: grid;
+    margin: auto 15% auto 15%;
+    text-align: left;
+
+}
+
+.Empresa{
+    display: grid;
+    margin: auto 15% auto 15%;
+    text-align: left;
+
+}
+
+.email{
+    display: grid;
+    margin: auto 15% auto 15%;
+    text-align: left;
+
+}
+.Comentarios{
+    display: grid;
+    margin: auto 15% auto 15%;
+    text-align: left;
+
+}
+
+textarea{
+margin: auto 15% auto 15%;
+width: 70%;
+}
+.tamaño-input{
+    font-size: 100%;
+    outline: none;
+    width: 100%;
+    height: 100%;
+    display: table-cell; 
+    vertical-align: middle;
+    border: 3px solid #ccc;
+
+}
+::placeholder{
+    font-size: 100%;
 }
