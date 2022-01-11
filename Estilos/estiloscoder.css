@@ -1,13 +1,11 @@
 .LogoLuzyFuerza{
-    display: flex;
     justify-content: center;
     top: 0%;
     margin: auto;
-    width: 50vw;
-    height: 20h;
-    position:relative;
-    
-}  
+    width: 50%
+}    
+
+
 img{
     height: auto;
     width: auto;
@@ -208,4 +206,7 @@ width: 70%;
 }
 ::placeholder{
     font-size: 100%;
+}
+.container{
+    text-align: center;
 }
